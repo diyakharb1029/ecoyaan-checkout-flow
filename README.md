@@ -12,6 +12,20 @@ https://ecoyaan-checkout-flow-sigma.vercel.app
 
 ---
 
+## Screenshots
+
+### Cart / Order Review
+![Cart Page](./screenshots/cart.png)
+
+### Shipping Address
+![Shipping Page](./screenshots/shipping.png)
+
+### Payment Page
+![Payment Page](./screenshots/payment.png)
+
+### Order Success
+![Success Page](./screenshots/success.png)
+
 ## GitHub Repository
 
 https://github.com/diyakharb1029/ecoyaan-checkout-flow
