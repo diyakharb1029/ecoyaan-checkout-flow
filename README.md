@@ -3,7 +3,7 @@
 
 A simplified checkout flow inspired by **Ecoyaan**, built using **Next.js, React, TypeScript, and Tailwind CSS** as part of a frontend engineering assignment.
 
-The application demonstrates a multi-step checkout experience where users can review their cart, enter shipping details, simulate payment, and view an order success screen.
+The application demonstrates a responsive multi-step checkout experience where users can review their cart, enter shipping details, simulate payment, and view an order success page.
 
 ---
 
@@ -19,23 +19,26 @@ https://github.com/diyakharb1029/ecoyaan-checkout-flow
 
 ---
 
-## Features
+# Features
 
-- Multi-step checkout flow
-  - Cart / Order Summary
-  - Shipping Address
-  - Payment Confirmation
-  - Order Success Page
+### Checkout Flow
+
+- Cart / Order Summary
+- Shipping Address Form
+- Payment Confirmation
+- Order Success Page
+
+### Additional Features
 
 - Server-Side Rendering using Next.js
 - Shared state management using React Context API
-- Shipping form with validation
-- Clean and modular component architecture
+- Form validation for shipping details
 - Responsive UI for mobile and desktop
+- Clean and modular component architecture
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - **Next.js**
 - **React**
@@ -45,13 +48,13 @@ https://github.com/diyakharb1029/ecoyaan-checkout-flow
 
 ---
 
-## Architecture Overview
+# Architecture Overview
 
-### Server-Side Rendering (SSR)
+## Server-Side Rendering (SSR)
 
-Cart data is rendered using **Next.js Server Components / SSR**, ensuring that product information and pricing are available on the initial page load.
+Cart data is rendered using **Next.js Server Components / SSR**, ensuring that product information and pricing are available during the initial page load.
 
-### State Management
+## State Management
 
 The application uses **React Context API** to maintain checkout state across different steps, including:
 
@@ -61,9 +64,9 @@ The application uses **React Context API** to maintain checkout state across dif
 
 This allows data to persist while navigating between checkout screens.
 
-### Component-Based Architecture
+## Component-Based Architecture
 
-The UI is broken into reusable components such as:
+The UI is split into reusable components such as:
 
 - `CartItemCard`
 - `OrderSummary`
@@ -74,7 +77,7 @@ This modular structure improves maintainability and code readability.
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```
 
@@ -86,21 +89,21 @@ types/
 
 ```
 
-**components**  
+### components
 Reusable UI components used across the checkout flow.
 
-**context**  
+### context
 Global checkout state management using React Context.
 
-**lib**  
+### lib
 Utility functions and mock data.
 
-**types**  
+### types
 TypeScript interfaces and type definitions.
 
 ---
 
-## Running the Project Locally
+# Running the Project Locally
 
 Clone the repository:
 
@@ -144,11 +147,11 @@ Open in your browser:
 
 ---
 
-## Assignment Notes
+# Assignment Notes
 
 This project was created as part of a frontend engineering interview assignment to demonstrate:
 
-- Next.js SSR capabilities
+- Next.js Server-Side Rendering capabilities
 - State management across multiple checkout steps
 - Responsive UI design
 - Modular and maintainable React architecture
