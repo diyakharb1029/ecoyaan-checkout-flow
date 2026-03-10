@@ -1,8 +1,13 @@
 # Ecoyaan Checkout Flow
 
-A simplified checkout flow inspired by **Ecoyaan**, built using **Next.js, React, TypeScript, and Tailwind CSS** as part of a frontend engineering assignment.
+A simplified checkout experience inspired by **Ecoyaan**, built using **Next.js, React, TypeScript, and Tailwind CSS** as part of a frontend engineering assignment.
 
-The application demonstrates a responsive multi-step checkout experience where users can review their cart, enter shipping details, simulate payment, and view an order success page.
+The application demonstrates a responsive **multi-step checkout flow** where users can:
+
+- Review items in their cart
+- Enter shipping details
+- Simulate a secure payment
+- View an order confirmation page
 
 ---
 
@@ -10,31 +15,35 @@ The application demonstrates a responsive multi-step checkout experience where u
 
 https://ecoyaan-checkout-flow-sigma.vercel.app
 
+---
+
 ## Screenshots
 
 ### Cart / Order Review
-<img width="1396" height="810" alt="Screenshot 2026-03-10 at 10 28 08 PM" src="https://github.com/user-attachments/assets/bbf70aec-3ce9-4576-bd48-c28b7711e84b" />
+<img width="1396" height="810" alt="Cart Page" src="https://github.com/user-attachments/assets/bbf70aec-3ce9-4576-bd48-c28b7711e84b" />
 
 ### Shipping Address
-<img width="1385" height="809" alt="Screenshot 2026-03-10 at 10 28 21 PM" src="https://github.com/user-attachments/assets/2c2aab6c-047a-4562-93d6-e75b22b78108" />
+<img width="1385" height="809" alt="Shipping Page" src="https://github.com/user-attachments/assets/2c2aab6c-047a-4562-93d6-e75b22b78108" />
 
 ### Payment Page
-<img width="1375" height="805" alt="Screenshot 2026-03-10 at 10 29 17 PM" src="https://github.com/user-attachments/assets/99e91c4f-10e7-44c5-bb47-53f0fd5b92b8" />
+<img width="1375" height="805" alt="Payment Page" src="https://github.com/user-attachments/assets/99e91c4f-10e7-44c5-bb47-53f0fd5b92b8" />
 
 ### Order Success
-<img width="1392" height="770" alt="Screenshot 2026-03-10 at 10 29 28 PM" src="https://github.com/user-attachments/assets/090a694d-e4ec-4e2b-8008-4d6a46bdb2e5" />
+<img width="1392" height="770" alt="Order Success Page" src="https://github.com/user-attachments/assets/090a694d-e4ec-4e2b-8008-4d6a46bdb2e5" />
+
 ---
+
 ## GitHub Repository
 
 https://github.com/diyakharb1029/ecoyaan-checkout-flow
 
 ---
 
-# Features
+## Features
 
 ### Checkout Flow
 
-- Cart / Order Summary
+- Cart / Order Review
 - Shipping Address Form
 - Payment Confirmation
 - Order Success Page
