@@ -144,14 +144,5 @@ Open in your browser:
 
 ```
 
----
-
-# Assignment Notes
-
-This project was created as part of a frontend engineering interview assignment to demonstrate:
-
-- Next.js Server-Side Rendering capabilities
-- State management across multiple checkout steps
-- Responsive UI design
-- Modular and maintainable React architecture
+---rchitecture
 ```
