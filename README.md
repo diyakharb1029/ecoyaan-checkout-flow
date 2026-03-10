@@ -1,4 +1,3 @@
-```markdown
 # Ecoyaan Checkout Flow
 
 A simplified checkout flow inspired by **Ecoyaan**, built using **Next.js, React, TypeScript, and Tailwind CSS** as part of a frontend engineering assignment.
